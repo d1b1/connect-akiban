@@ -1,22 +1,18 @@
-# Very BETA
-
-Lately I'm really busy working at Teambox and I have no time (nor motivation) to maintain this module anymore.
-Please let me know if anyone would be interested to maintain that module!
-
 # connect-akiban
 
 connect-akiban is a Akiban session store.
 
-## Version 1.*
-
-This is an initial fork of the connect-mongodb project. At this time there is not akiban node implementation. To make this follow
-the connect middleware pattern a separate akiban db server project is needed.
+This is a beta project designed to implement the connect middleware for session. It's based upon the code and pattern
+used in the connect-mongodb and connect-couchdb projects. Once it reaches a stable, working point, I will push to 
+npm and the npm install will work.
 
 ## Installation
+This project is not available in the NPM registry yet. No not use.
 
 via npm:
 
     $ npm install connect-akiban
+
 
 ## Options
 
@@ -38,6 +34,7 @@ Other options:
   * `reapInterval` ms to check expired sessions to remove on db
   * `username` To authenticate your db connection
   * `password` To authenticate your db connection
+
 
 ## Example
 
