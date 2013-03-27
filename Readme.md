@@ -57,3 +57,8 @@ You have a complete example on `example/index.js`.
       })
     );
 
+## Attribution
+This project is directly based upon the work of masylum and the connect-mongodb project. This is not a direct fork
+because none of the code will be compatible with the base project. New datastore etc.
+
+https://github.com/masylum/connect-mongodb
