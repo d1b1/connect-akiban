@@ -1,0 +1,14 @@
+{
+  "name": "connect-akiban",
+  "description": "Akiban session store for Connect Middleware.",
+  "version": "0.0.1",
+  "author": "Stephan Smith <stephan.smith.bc93@gmail.com>",
+  "repository": {
+    "type": "git", 
+    "url": "git://github.com/d1b1/connect-akiban.git"
+  },
+  "dependencies": { 
+    "connect": ">=1.8.5 <2"
+  },
+  "main": "./lib/connect-akiban"
+}
